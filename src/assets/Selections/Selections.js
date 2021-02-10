@@ -8,6 +8,12 @@ import NativeSelect from '@material-ui/core/NativeSelect';
 import InputBase from '@material-ui/core/InputBase';
 
 const BootstrapInput = withStyles((theme) => ({
+  div: {
+    backgroundColor: 'blueviolet',
+    justifyContent: 'center',
+    alignItems: 'center',
+    display: 'block',
+  },
   root: {
     'label + &': {
       marginTop: theme.spacing(3),
@@ -15,7 +21,6 @@ const BootstrapInput = withStyles((theme) => ({
   },
   input: {
     borderRadius: 4,
-    position: 'relative',
     backgroundColor: theme.palette.background.paper,
     border: '1px solid #ced4da',
     fontSize: 16,
